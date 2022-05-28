@@ -10,5 +10,7 @@ data class Repo(
     @SerializedName("full_name")
     var fullName: String,
     @SerializedName("language")
-    var language: String
+    var language: String,
+    @SerializedName("url")
+    var url: String
 ) {}

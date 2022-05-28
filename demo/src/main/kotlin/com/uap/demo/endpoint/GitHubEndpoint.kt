@@ -17,4 +17,13 @@ class GitHubEndpoint {
     @RequestMapping("/{userName}/languages")
     fun getLanguages(@PathVariable(name = "userName") userName:String): ResponseEntity<List<String>> =
         ResponseEntity.ok(gitHubService.getLanguages(userName))
+
+    @RequestMapping("/{userName}/secundaryLanguages")
+    fun getSecundaryLanguages(@PathVariable(name = "userName") userName:String): ResponseEntity<List<String>> =
+        ResponseEntity.ok(gitHubService.getSecundaryLanguages(userName))
+
+    @RequestMapping("/{userName}/allLanguages")
+    fun getAllLanguages(@PathVariable(name = "userName") userName:String): ResponseEntity<List<String>> =
+        ResponseEntity.ok(gitHubService.getAllLanguages(userName))
+
 }
