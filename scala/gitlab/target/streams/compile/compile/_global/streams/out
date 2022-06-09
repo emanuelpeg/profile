@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/emanuel/Projects/microservice/profile/scala/gitlab/project/target/.sbt-compilation-infos/gitlab-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:1:12: object springframework is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.springframework.boot.SpringApplication[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:2:12: object springframework is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.springframework.boot.autoconfigure.SpringBootApplication[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:5:2: not found: type SpringBootApplication[0m
+[0m[[0m[31merror[0m] [0m[0m@SpringBootApplication[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:9:3: not found: value SpringApplication[0m
+[0m[[0m[31merror[0m] [0m[0m  SpringApplication.run(classOf[Application], args:_*)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/emanuel/Projects/microservice/profile/scala/gitlab/project/target/.sbt-compilation-infos/gitlab-compile/.sbt-idea-lock.[0m

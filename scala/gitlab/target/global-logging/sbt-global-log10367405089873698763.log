@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec({file:/home/emanuel/Projects/microservice/profile/scala/gitlab/}gitlab/run, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mbuild source files have changed[0m
+[0m[[0m[33mwarn[0m] [0m[0mmodified files: [0m
+[0m[[0m[33mwarn[0m] [0m[0m  /home/emanuel/Projects/microservice/profile/scala/gitlab/build.sbt[0m
+[0m[[0m[33mwarn[0m] [0m[0mApply these changes by running `reload`.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAutomatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.[0m
+[0m[[0m[33mwarn[0m] [0m[0mDisable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/emanuel/Projects/microservice/profile/scala/gitlab/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:1:12: object springframework is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.springframework.boot.SpringApplication[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:2:12: object springframework is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.springframework.boot.autoconfigure.SpringBootApplication[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:5:2: not found: type SpringBootApplication[0m
+[0m[[0m[31merror[0m] [0m[0m@SpringBootApplication[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/emanuel/Projects/microservice/profile/scala/gitlab/src/main/scala/Main.scala:9:3: not found: value SpringApplication[0m
+[0m[[0m[31merror[0m] [0m[0m  SpringApplication.run(classOf[Application], args:_*)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 1 jun. 2022 02:30:59[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
