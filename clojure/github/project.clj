@@ -5,7 +5,11 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.3"],
                  [org.springframework.boot/spring-boot-starter-web "2.6.7"],
-                 [org.springframework.boot/spring-boot-configuration-processor "2.6.7"]]
+                 [org.springframework.boot/spring-boot-configuration-processor "2.6.7"],
+                 [com.squareup.retrofit2/retrofit "2.9.0"],
+                 [com.squareup.retrofit2/converter-gson  "2.9.0"]
+                 ]
+  :java-source-paths ["src-java"]
   :main com.assembly.github.core
   :aot :all
   :target-path "target/%s"
