@@ -5,7 +5,6 @@ import org.springframework.cache.annotation.Cacheable
 import org.springframework.stereotype.Service
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import javax.annotation.PostConstruct
 
 
 interface GitHubService {
@@ -21,7 +20,7 @@ interface GitHubService {
 @Service
 class GitHubServiceImpl : GitHubService {
 
-    private val gitHubClient : GitHubClient;
+    private val gitHubClient : GitHubClient
 
     init {
         val retrofit = Retrofit.Builder()

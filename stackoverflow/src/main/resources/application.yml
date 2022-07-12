@@ -9,6 +9,8 @@ micronaut:
       swagger-ui:
         paths: classpath:META-INF/swagger/views/swagger-ui
         mapping: /swagger-ui/**
+  server:
+    port: 9001
 netty:
   default:
     allocator:
